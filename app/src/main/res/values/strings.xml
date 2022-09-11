@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name" translatable="false">Penit</string>
+
+    <!--    Icon description-->
+    <string name="add_new_task_icon">Add New Task Icon</string>
+    <string name="reminder_button">Reminder Button</string>
+    <string name="save_task_icon">Save Task</string>
+    <string name="must_be_not_empty">The field must not be empty</string>
+    <string name="no_description">No description</string>
+    <string name="app_icon">App Icon</string>
+    <string name="empty_list_image">Empty List Image</string>
+    <string name="calender_icon">Calender Icon</string>
+
+    <!--    Theme-->
+    <string name="follow_system">Follow System</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="theme">Theme</string>
+    <string name="choose_theme">Choose Theme</string>
+
+    <!--     Empty List-->
+    <string name="no_tasks">There are no available Tasks</string>
+
+    <!--    Task-->
+    <string name="delete_task_dialog">Do you want to delete this task?</string>
+    <string name="save_task_changes">Save Task Changes</string>
+    <string name="tasks">Tasks</string>
+    <string name="notes">Notes</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="todo_list">Todo List</string>
+    <string name="delete_task_button">Delete Task Button</string>
+    <string name="task_name">Task Name</string>
+    <string name="enter_task_name">Enter Task Name</string>
+    <string name="choose_priority">Choose Priority</string>
+    <string name="description">Task Description</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="due_date_time">Task Due Date and Time</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="remind_date_and_time">Reminder set for %1$s.</string>
+    <string name="due_date_and_time">%1$s</string>
+    <string name="new_task">New Task</string>
+
+    <!--    Priority-->
+    <string name="high_priority">Important Priority</string>
+    <string name="medium_priority">Medium Priority</string>
+    <string name="low_priority">Low Priority</string>
+    <string name="priority_low">Low Priority</string>
+
+    <!--    Project-->
+    <string name="enter_project_name">Enter Project Name</string>
+    <string name="delete_project">Delete Project</string>
+    <string name="edit_project">Edit Project</string>
+    <string name="no_projects">No Projects</string>
+    <string name="add_project">Add Project</string>
+    <string name="projects">Projects</string>
+    <string name="projects_name">Label Name</string>
+
+    <!--    AlertDialog-->
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="delete_project_dialog">Are you sure you want to delete this project?</string>
+
+
+    <string name="date_reminder_default">Today</string>
+    <string name="date_error_check_again">The date you entered is in the past.</string>
+    <string name="save">Save</string>
+    <string name="task">Task</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="task_channel_id">task_channel</string>
+    <string name="sort_by">Sort By</string>
+    <string name="delete_all_tasks">Delete All Tasks</string>
+    <string name="search">Search</string>
+    <string name="yes">Yes</string>
+    <string name="name">Name</string>
+    <string name="add">Add</string>
+    <string name="more_options">More Options</string>
+    <string name="edit">Edit</string>
+    <string name="menu">Menu</string>
+    <string name="set_task_deadline">Set Task Deadline</string>
+    <string name="nav_header_background">Nav Header Background</string>
+
+    <!-- Fragment Titles -->
+    <string name="library">Library</string>
+    <string name="deleted">Deleted</string>
+    <string name="archived">Archived</string>
+    <string name="settings">Settings</string>
+
+    <!-- Menu Options -->
+    <string name="share">Share Note with..</string>
+    <string name="delete">Delete Note</string>
+    <string name="restore">Restore Note</string>
+    <string name="archive">Archive Note</string>
+    <string name="unarchive">Unarchive Note</string>
+    <string name="duplicate">Duplicate Note</string>
+    <string name="library_add">Add Note to Library</string>
+    <string name="reminder_note">Add Note Reminder</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete_forever">Delete Note forever</string>
+    <string name="clipboard">Copy Note to Clipboard</string>
+    <string name="copy">Copy Note to..</string>
+    <string name="reading_mode">Open in Reading Mode</string>
+
+    <!-- Pinning -->
+    <string name="pin">Pin Note</string>
+    <string name="unpin">Unpin Note</string>
+    <string name="pinned">Pinned Notes</string>
+    <string name="others">Other Notes</string>
+
+    <!-- Chooser dialog hints -->
+    <string name="view_note">View note…</string>
+    <string name="share_note">Share note…</string>
+
+    <!-- Dialogs -->
+    <string name="open_link">Open link</string>
+    <string name="make_list">Make list</string>
+    <string name="take_note">Take note</string>
+    <string name="add_library">Add library</string>
+    <string name="export">Export Note to..</string>
+    <string name="pdf" translatable="false">PDF</string>
+    <string name="txt" translatable="false">TXT</string>
+    <string name="xml" translatable="false">XML</string>
+    <string name="html" translatable="false">HTML</string>
+    <string name="json" translatable="false">JSON</string>
+    <string name="view_file">View file</string>
+    <string name="save_to_device">Save to device</string>
+    <string name="edit_library">Edit library</string>
+    <string name="library_exists">Library exists</string>
+    <string name="delete_library">Delete library?</string>
+    <string name="create_new">No Library yet. Create one?</string>
+    <string name="delete_all_notes">Delete all Notes?</string>
+    <string name="delete_note_forever">Delete Note forever?</string>
+    <string name="your_notes_associated">Your notes associated with this library will not be deleted, but your library won\'t be available again</string>
+
+    <!-- Lists and Notes -->
+    <string name="note">Note</string>
+    <string name="item">Item</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="add_item">Add Item</string>
+    <string name="one_more_item">1 more item</string>
+    <string name="more_items">%1$d more items</string>
+    <string name="drag_handle">Drag Handle</string>
+    <string name="bold">Bold</string>
+    <string name="link">Link</string>
+    <string name="italic">Italic</string>
+    <string name="strikethrough">Strikethrough</string>
+    <string name="clear_formatting">Clear formatting</string>
+    <string name="monospace">Monospace</string>
+
+    <!-- Miscellaneous -->
+    <string name="saved_to_device">Saved to device</string>
+    <string name="saved_to_penit">Saved to Penit</string>
+    <string name="empty_note">Empty note</string>
+    <string name="empty_list">Empty list</string>
+    <string name="discarded_empty_note">Discarded empty note</string>
+    <string name="discarded_empty_list">Discarded empty list</string>
+    <string name="cant_open_link">Can\'t open link</string>
+    <string name="something_went_wrong">Something went wrong. Please try again.</string>
+
+    <!-- Settings Page -->
+    <string name="appearance">Appearance</string>
+
+    <string name="view">View</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+    <string name="date_format">Date format</string>
+    <string name="none">None</string>
+    <string name="relative">Relative</string>
+    <string name="absolute">Absolute</string>
+
+    <string name="content_density">Content density</string>
+    <string name="max_items_to_display">Max items to display in list</string>
+    <string name="max_lines_to_display">Max lines to display in note</string>
+
+    <string name="backup">Backup</string>
+    <string name="export_backup">Export backup</string>
+    <string name="import_backup">Import backup</string>
+
+    <string name="about">About</string>
+    <string name="libraries">Libraries</string>
+    <string name="rate">Rate this app</string>
+
+    <string name="github" translatable="false">GitHub</string>
+    <string name="task_library">Task Library</string>
+    <string name="note_library">Note Library</string>
+    <string name="deleted_notes">Deleted Notes</string>
+    <string name="archived_notes">Archived Notes</string>
+    <string name="list_item">List Item</string>
+    <string name="add_new_item">Add New Item</string>
+
+    <!--    Options list-->
+    <string name="note_options">Note Options</string>
+    <string name="delete_options">Delete Options</string>
+    <string name="archive_options">Archive Options</string>
+    <string name="create_options">Create Options</string>
+    <string name="create_one">Create One</string>
+    <string name="no_note">No Note Available, create one.</string>
+    <string name="add_list">Add List</string>
+    <string name="sync">Sync With Google</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="linkedIn">LinkedIn</string>
+    <string name="twitter">Twitter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_lists">My Lists</string>
+    <string name="share_with">Share this App with your friends</string>
+    <string name="version">Version</string>
+    <string name="change_language">Change Language</string>
+    <string name="google">Google Account</string>
+    <string name="sync_mode">Sync Mode</string>
+    <string name="deleted_tasks">Deleted Tasks</string>
+    <string name="finished_tasks">Finished Tasks</string>
+    <string name="exit">Exit</string>
+    <string name="due">Due</string>
+    <string name="empty_deleted_screen">No note deleted yet</string>
+    <string name="empty_archived_screen">Archieved notes will appear here.</string>
+    <string name="empty_label_screen">No available label yet</string>
+    <string name="empty_search_screen">Search note!</string>
+    <string name="delete_label">Delete Label</string>
+    <string name="finished_task">Finished Task</string>
+    <string name="font">Font</string>
+    <string name="quintessential">Quintessential</string>
+    <string name="andada">Andada</string>
+    <string name="merriweather">Merriweather</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="basic">Basic</string>
+    <string name="fontSize">Font Size</string>
+    <string name="penitFresh">Penit Fresh</string>
+    <string name="penitBasic">Penit Basic</string>
+    <string name="penitBright">Penit Bright</string>
+    <string name="prioritize">Prioritize your task</string>
+    <string name="ovedue_task">Overdue</string>
+</resources>

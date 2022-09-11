@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/GroupOne"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/notes"
+            android:checked="true"
+            android:icon="@drawable/ic_notes"
+            android:title="@string/notes" />
+
+        <item
+            android:id="@+id/tasks"
+            android:icon="@drawable/ic_add_task"
+            android:title="@string/tasks" />
+
+        <item
+            android:id="@+id/notesLabels"
+            android:icon="@drawable/ic_library_notes"
+            android:title="@string/note_library" />
+    </group>
+
+    <group
+        android:id="@+id/GroupTwo"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/deleted"
+            android:icon="@drawable/ic_delete"
+            android:title="@string/deleted_notes" />
+
+        <item
+            android:id="@+id/archived"
+            android:icon="@drawable/ic_archive"
+            android:title="@string/archived_notes" />
+
+        <item
+            android:id="@+id/deletedTask"
+            android:icon="@drawable/ic_delete"
+            android:title="@string/deleted_tasks" />
+
+        <item
+            android:id="@+id/finishedTasks"
+            android:icon="@drawable/ic_circle_done"
+            android:title="@string/finished_tasks" />
+    </group>
+
+    <group
+        android:id="@+id/GroupThree"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/shareApp"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share_with" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+    </group>
+
+    <group
+        android:id="@+id/GroupFour"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_close"
+            android:title="@string/exit" />
+    </group>
+</menu>

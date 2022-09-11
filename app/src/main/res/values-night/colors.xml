@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A9A9A9</color>
+    <color name="colorPrimaryDark">#79797D</color>
+    <color name="colorPrimaryVariant">#757575</color>
+    <color name="colorPrimaryLight">#D9D9D7</color>
+    <color name="colorSecondary">#CC397B</color>
+    <color name="colorSecondaryLight">#CC397B</color>
+    <color name="colorSecondaryDark">#CC397B</color>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="grey">#EDEDE9</color>
+    <color name="hidden_text">#707C80</color>
+    <color name="FABRipple">#80FFFFFF</color>
+
+    <color name="penitFresh">#CC397B</color>
+    <color name="penitBasic">#5030BD</color>
+    <color name="penitBright">#228B22</color>
+
+    <array name="font_color">
+        <item>#5030BD</item>
+        <item>#800080</item>
+        <item>#483248</item>
+        <item>#343851</item>
+        <item>#228B22</item>
+        <item>#50C878</item>
+        <item>#CC397B</item>
+        <item>#6E260E</item>
+    </array>
+
+</resources>

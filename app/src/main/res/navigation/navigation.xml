@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/notes">
+
+    <fragment
+        android:id="@+id/notes"
+        android:name="fortunate.signature.penit.ui.screen.Notes"
+        android:label="@string/notes">
+
+        <action
+            android:id="@+id/NotesToSearch"
+            app:destination="@id/search"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/notesLabels"
+        android:name="fortunate.signature.penit.ui.screen.Labels"
+        android:label="@string/library">
+
+        <action
+            android:id="@+id/LabelsToDisplayLabel"
+            app:destination="@id/DisplayLabel"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/deleted"
+        android:name="fortunate.signature.penit.ui.screen.Deleted"
+        android:label="@string/deleted" />
+
+    <fragment
+        android:id="@+id/archived"
+        android:name="fortunate.signature.penit.ui.screen.Archived"
+        android:label="@string/archived" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="fortunate.signature.penit.ui.screen.Settings"
+        android:label="@string/settings" />
+
+    <fragment
+        android:id="@+id/search"
+        android:name="fortunate.signature.penit.ui.screen.Search" />
+
+    <fragment
+        android:id="@+id/DisplayLabel"
+        android:name="fortunate.signature.penit.ui.screen.DisplayLabel"
+        android:label="{SelectedLabel}" />
+
+    <fragment
+        android:id="@+id/deletedTask"
+        android:name="fortunate.signature.penit.ui.screen.DeletedTask"
+        android:label="Deleted Task" />
+
+    <fragment
+        android:id="@+id/finishedTasks"
+        android:name="fortunate.signature.penit.ui.screen.Finished"
+        android:label="Finished Task" />
+
+    <fragment
+        android:id="@+id/searchTask"
+        android:name="fortunate.signature.penit.ui.screen.Search"
+        android:label="Search Task" />
+
+    <fragment
+        android:id="@+id/tasks"
+        android:name="fortunate.signature.penit.ui.screen.Tasks"
+        android:label="Tasks" >
+        <action
+            android:id="@+id/action_tasks_to_searchTask"
+            app:destination="@id/searchTask" />
+    </fragment>
+
+</navigation>
